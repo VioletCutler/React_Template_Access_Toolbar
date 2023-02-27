@@ -1,0 +1,63 @@
+@import './index.css';
+
+#navbar, footer{
+    flex: none;
+  }
+  
+  #navbar > * {
+    padding: 1rem;
+  }
+  
+  
+  #nav-links {
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #navbar{
+    position: sticky;
+    background-color: var(--dark-navbar);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  
+    font-family: 'Poller One', Arial, sans-serif;
+    flex-grow: 1;
+    max-height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 40rem;
+  }
+  
+  nav > * {
+    box-sizing: border-box;
+    border: solid black;
+    padding: .2rem;
+    border-radius: 20%;
+  
+    color: var(--light-inactive-nav-link-font);
+    width: 5rem;
+  }
+  
+  nav > *[aria-current="page"] {
+    background: var(--dark-active-nav-link-background);
+    color:var(--dark-active-nav-link-font);
+  }
+
+  #header-link-to-welcome-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+  }

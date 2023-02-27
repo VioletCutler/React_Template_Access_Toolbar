@@ -1,0 +1,5 @@
+.grayscale {
+    filter: grayscale(100%);
+    background-color: grey;
+    z-index: 999;
+  }

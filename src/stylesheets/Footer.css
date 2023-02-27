@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 60%;
+    text-align: center;
+    display:grid;
+    margin-bottom: 5%svh;
+    font-size:.5rem;
+  }
+
+.toolbar-icon-toggled {
+    left:50%;
+}
+  
