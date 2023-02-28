@@ -10,7 +10,18 @@
     --dark-inactive-nav-link-font: white;
 }
 
-.darkmode {
+.dark-mode {
     color: var(--dark-text-color);
-    
 }
+
+.dark-mode-navbar{
+    color:yellow;
+}
+
+.dark-mode-nav-links:active {
+    color:yellow;
+}
+
+.dark-mode-nav-links {
+    color: white;
+  }

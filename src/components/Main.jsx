@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 //components
-import { Navbar, Homepage, Footer, Toolbar } from "./";
+import { Navbar, Homepage, Access, Toolbar, About } from "./";
 //stylesheets
 // import {
 //   DarkMode
@@ -25,12 +25,13 @@ const Main = () => {
       <div id="routes">
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
       {toolBarVisibility ? (
         <Toolbar setTheme={setTheme} changeToolBarDisplay={changeToolBarDisplay} fontSize={fontSize} setFontSize={setFontSize} />
       ) : null}
-      <Footer
+      <Access
         toolBarVisibility={toolBarVisibility}
         setToolBarVisibility={setToolBarVisibility}
         changeToolBarDisplay={changeToolBarDisplay}

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
-import '../stylesheets/Navbar.css'
+import '../stylesheets/navbar/navbar.css'
 
 const Navbar = ({theme}) => {
   const navigate = useNavigate()
@@ -9,9 +9,10 @@ const Navbar = ({theme}) => {
     navigate('/')
   }
 
-  return <div id="navbar">
-      <nav id={`${theme}-nav-links`}>
-        <Link id="link-to-homepage" to="/">Home</Link>
+  return <div id='navbar' className={`${theme}-navbar`}>
+      <nav id={`nav-links`} className={`${theme}-nav-links`}>
+        <Link id="link-to-homepage" className={`${theme}-link-to-homepage`} to="/">Home</Link>
+        <Link id="link-to-homepage" className={`${theme}-link-to-homepage`}to="/about">About</Link>
       </nav>
   </div>;
 };

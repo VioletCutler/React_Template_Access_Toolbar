@@ -1,3 +1,14 @@
 :root {
+    --light-background-color: rgb(249, 144, 144);
+    --light-card-background-color: linear-gradient(white, #887f7f);
+    --light-navbar:#f2aaaa;
+    --light-text-color: white;
+    /* Nav Bar */
+    --light-active-nav-link-background: rgb(11, 2, 114);
+    --light-active-nav-link-font: white;
+    --light-inactive-nav-link-background:black;
+    --light-inactive-nav-link-font: white;
+
   --light-inactive-nav-link-font: black;
 }
+

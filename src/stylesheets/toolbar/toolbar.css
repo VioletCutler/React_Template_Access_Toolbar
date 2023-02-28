@@ -1,3 +1,5 @@
+
+
 #toolbar-modal-backdrop {
     position: absolute;
     top: 0;
@@ -8,7 +10,7 @@
 
 #toolbar {
     position:fixed;
-    bottom: 10%;
+    bottom: 30%;
     width:45%;
     border: 3px solid rgb(0, 0, 0);
     padding:2rem;
@@ -20,3 +22,5 @@
     max-width: 45%;
     font-size:1.2rem;
   }
+
+  
