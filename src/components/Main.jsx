@@ -7,7 +7,7 @@ import { Navbar, Homepage, Access, Toolbar, About } from "./";
 // } from './'
 
 import { Routes, Route } from "react-router-dom";
-// import "../stylesheets/index.css";
+import "../stylesheets/index.css";
 
 
 const Main = () => {
@@ -20,16 +20,16 @@ const Main = () => {
     setToolBarVisibility(!toolBarVisibility);
   }
   return (
-    <div className={theme} id="main">
-      <Navbar />
+    <div className={`${theme}-body`} id="main">
+      <Navbar theme={theme}/>
       <div id="routes">
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Homepage theme={theme}/>} />
+          <Route path="/about" element={<About theme={theme}/>} />
         </Routes>
       </div>
       {toolBarVisibility ? (
-        <Toolbar setTheme={setTheme} changeToolBarDisplay={changeToolBarDisplay} fontSize={fontSize} setFontSize={setFontSize} />
+        <Toolbar setTheme={setTheme} changeToolBarDisplay={changeToolBarDisplay} fontSize={fontSize} setFontSize={setFontSize} theme={theme} />
       ) : null}
       <Access
         toolBarVisibility={toolBarVisibility}

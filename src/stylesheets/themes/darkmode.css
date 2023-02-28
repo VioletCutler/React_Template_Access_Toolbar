@@ -1,27 +1,52 @@
 :root {
-    --dark-background-color: rgb(56, 12, 12);
+    --scheme-100:#B0C3B8;
+    --scheme-300:#A4F9C7;
+    --scheme-500:#22DA6C;
+    --scheme-700: #3D7352;
+    --scheme-900:#1F442E;
+
+    --neutral-100:#F6F8F6;
+    --neutral-300:#C4C6C4;
+    --neutral-500:#5A5C59;
+    --neutral-700:#363B36;
+    --neutral-900:#011304;
+
+    --warning:#BABA1F;
+    --error:#901305;
+
+    --dark-background-color: --scheme-100;
     --dark-card-background-color: linear-gradient(white, #444444);
-    --dark-navbar:#522c2c;
-    --dark-text-color: white;
+    --dark-navbar:#344B39;
+    --dark-text-color: #dae3de;
     /* Nav Bar */
-    --dark-active-nav-link-background: rgb(11, 2, 114);
+    --dark-active-nav-link-background: #3C7955;
     --dark-active-nav-link-font: white;
-    --dark-inactive-nav-link-background:black;
-    --dark-inactive-nav-link-font: white;
+    --dark-inactive-nav-link-background:#3C7955;
+    --dark-inactive-nav-link-font: #dae3de;
+
+    /* Access Toolbar */
+    --dark-access-toolbar-background: #3C7955;
 }
 
-.dark-mode {
+.dark-mode-body {
+    background-color: var(--dark-background-color);
     color: var(--dark-text-color);
 }
 
+/* navbar */
 .dark-mode-navbar{
-    color:yellow;
+    color: var(--dark-navbar);
 }
 
 .dark-mode-nav-links:active {
-    color:yellow;
+    color:var(--dark-active-nav-link-font);
 }
 
 .dark-mode-nav-links {
-    color: white;
+    color: var(--dark-inactive-nav-link-font);
   }
+
+/* access toolbar */
+.dark-mode-toolbar-container {
+    background-color: var(--dark-access-toolbar-background);
+}
