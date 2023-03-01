@@ -1,5 +1,4 @@
-.grayscale {
+.grayscale-body {
     filter: grayscale(100%);
-    background-color: grey;
     z-index: 999;
   }

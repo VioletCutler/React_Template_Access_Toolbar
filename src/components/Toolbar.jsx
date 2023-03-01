@@ -2,13 +2,11 @@ import '../stylesheets/toolbar/toolbar.css'
 
 const Toolbar = ({ theme, setTheme, changeToolBarDisplay, fontSize, setFontSize }) => {
 
-  function changeTheme(event, themeType){
+  function changeTheme(event){
     setTheme(event.target.id)
-    console.log(event.target.id)
   }
 
   function handleDecreaseTextSize(){
-    console.log(fontSize.slice(-1))
     let currentFontSize = fontSize.slice(-1)
     if (currentFontSize > 1) {
       currentFontSize--
@@ -17,7 +15,6 @@ const Toolbar = ({ theme, setTheme, changeToolBarDisplay, fontSize, setFontSize 
   }
 
   function handleIncreaseTextSize(){
-    console.log(fontSize.slice(-1))
     let currentFontSize = fontSize.slice(-1)
     if (currentFontSize < 6) {
       currentFontSize++

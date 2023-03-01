@@ -1,0 +1,10 @@
+@import '../themes/lightmode.css';
+
+.light-mode-toolbar-option {
+    color:var(--scheme-100);
+    background-color: var(--scheme-900);
+}
+
+.light-mode-toolbar-container {
+    background: black;
+}
