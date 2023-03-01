@@ -99,3 +99,17 @@ select {
   .card {
     left:10%;
   }
+
+  /* @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
+
+  @media (inverted-colors: inverted) {
+    img,
+    video {
+      filter: invert(100%);
+    }
+  } */

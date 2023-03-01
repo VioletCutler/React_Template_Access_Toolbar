@@ -29,13 +29,13 @@ const Toolbar = ({ theme, setTheme, changeToolBarDisplay, fontSize, setFontSize 
       <div id="toolbar-modal-backdrop" onClick={changeToolBarDisplay}></div>
       <div id="toolbar" className={`${theme}-toolbar`}>
         <h2 className={`${theme}-toolbar-option`}id="accessibility-header">Accessibility Toolbar</h2>
-        <p className={`${theme}-toolbar-option`} id="increase-text" onClick={handleIncreaseTextSize}>Increase Text Size</p>
+        {/* <p className={`${theme}-toolbar-option`} id="increase-text" onClick={handleIncreaseTextSize}>Increase Text Size</p>
         <p className={`${theme}-toolbar-option`} id="decrease-text" onClick={handleDecreaseTextSize}>Decrease Text Size</p>
         <p className={`${theme}-toolbar-option`} id="high-contrast" onClick={changeTheme}>High Contrast</p>
-        <p className={`${theme}-toolbar-option`} id="negative-contrast" onClick={changeTheme}>Negative Contrast</p>
+        <p className={`${theme}-toolbar-option`} id="negative-contrast" onClick={changeTheme}>Negative Contrast</p> */}
         <p className={`${theme}-toolbar-option`} id="light-mode" onClick={changeTheme}>Light Mode</p>
         <p className={`${theme}-toolbar-option`} id="dark-mode" onClick={changeTheme}>Dark Mode</p>
-        <p className={`${theme}-toolbar-option`} id="grayscale" onClick={changeTheme}>Grayscale</p>
+        {/* <p className={`${theme}-toolbar-option`} id="grayscale" onClick={changeTheme}>Grayscale</p> */}
       </div>
     </div>
   );

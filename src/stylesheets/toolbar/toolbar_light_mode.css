@@ -1,10 +1,11 @@
 @import '../themes/lightmode.css';
+@import '../color_schemes.css';
 
 .light-mode-toolbar-option {
     color:var(--scheme-100);
-    background-color: var(--scheme-900);
+    background-color: var(--light-scheme-100);
 }
 
 .light-mode-toolbar {
-    background: black;
+    background: var(--light-scheme-100);
 }

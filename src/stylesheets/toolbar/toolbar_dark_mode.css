@@ -1,8 +1,10 @@
+@import '../color_schemes.css';
+
 .dark-mode-options {
     color:white;
     background-color: black;
 }
 
-.dark-mode-toolbar-container {
-    background: black;
+.dark-mode-toolbar {
+    background: rgb(255, 85, 85);
 }

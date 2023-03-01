@@ -1,28 +1,15 @@
+@import '../color_schemes.css';
+
 :root {
-    --scheme-100:#B0C3B8;
-    --scheme-300:#A4F9C7;
-    --scheme-500:#22DA6C;
-    --scheme-700: #3D7352;
-    --scheme-900:#1F442E;
-
-    --neutral-100:#F6F8F6;
-    --neutral-300:#C4C6C4;
-    --neutral-500:#5A5C59;
-    --neutral-700:#363B36;
-    --neutral-900:#011304;
-
-    --warning:#BABA1F;
-    --error:#901305;
-
-    --light-background-color: var(--neutral-100);
+    --light-background-color: var(--light-neutral-100);
     --light-card-background-color: linear-gradient(white, #444444);
     --light-navbar:#344B39;
-    --light-text-color: var(--neutral-900);
+    --light-text-color: var(--light-neutral-900);
     /* Nav Bar */
-    --light-active-nav-link-background: var(--neutral-700);
-    --light-active-nav-link-font: var(--neutral-100);
-    --light-inactive-nav-link-background:var(--neutral-700);
-    --light-inactive-nav-link-font: var(--neutral-100);
+    --light-active-nav-link-background: var(--light-neutral-700);
+    --light-active-nav-link-font: var(--light-neutral-100);
+    --light-inactive-nav-link-background:var(--light-neutral-700);
+    --light-inactive-nav-link-font: var(--light-neutral-100);
 
     /* Access Toolbar */
     --light-access-toolbar-background: #3C7955;

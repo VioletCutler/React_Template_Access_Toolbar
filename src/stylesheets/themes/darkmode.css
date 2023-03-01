@@ -1,28 +1,15 @@
+@import '../color_schemes.css';
+
 :root {
-    --scheme-100:#B0C3B8;
-    --scheme-300:#A4F9C7;
-    --scheme-500:#22DA6C;
-    --scheme-700: #3D7352;
-    --scheme-900:#142d1e;
-
-    --neutral-100:#F6F8F6;
-    --neutral-300:#C4C6C4;
-    --neutral-500:#5A5C59;
-    --neutral-700:#363B36;
-    --neutral-900:#011304;
-
-    --warning:#84840d;
-    --error:#5d0c03;
-
-    --dark-background-color: var(--neutral-900);
+    --dark-background-color: var(--dark-neutral-900);
     --dark-card-background-color: linear-gradient(white, #444444);
-    --dark-navbar:var(--scheme-900);
+    --dark-navbar:var(--dark-scheme-900);
     --dark-text-color: #dae3de;
     /* Nav Bar */
     --dark-active-nav-link-background: #3C7955;
-    --dark-active-nav-link-font: var(--neutral-300);
+    --dark-active-nav-link-font: var(--dark-neutral-300);
     --dark-inactive-nav-link-background:#3C7955;
-    --dark-inactive-nav-link-font: var(--neutral-300);
+    --dark-inactive-nav-link-font: var(--dark-neutral-300);
 
     /* Access Toolbar */
     --dark-access-toolbar-background: #3C7955;

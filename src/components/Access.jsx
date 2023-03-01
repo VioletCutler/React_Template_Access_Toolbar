@@ -1,7 +1,7 @@
 import icon from '../assets/accessibility_icon.png'
 const Access = ({ toolBarVisibility, changeToolBarDisplay }) => {
   return (
-    <footer className={toolBarVisibility ? 'toolbar-icon-toggled' : ''}>
+    <footer className={toolBarVisibility ? 'toolbar-icon-toggled' : 'toolbar-icon'}>
       <img src={icon} onClick={changeToolBarDisplay} alt='Click for Accessibility Options'></img>
     </footer>
   );
