@@ -10,5 +10,9 @@ export {default as DarkMode} from '../stylesheets/themes/darkmode.css'
 export {default as LightMode} from '../stylesheets/themes/lightmode.css'
 export {default as GrayScale} from '../stylesheets/themes/grayscale.css'
 
+
+
+// Toolbar
+export {default as AccessToolbar} from '../stylesheets/toolbar/toolbar.css'
 export {default as DarkModeToolbar} from '../stylesheets/toolbar/toolbar_dark_mode.css'
 export {default as LightModeToolbar} from '../stylesheets/toolbar/toolbar_light_mode.css'

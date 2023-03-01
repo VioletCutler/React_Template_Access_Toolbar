@@ -1,13 +1,3 @@
-
-
-#toolbar-modal-backdrop {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right:0;
-    bottom:0;
-}
-
 #toolbar {
     position:fixed;
     bottom: 30%;
@@ -15,12 +5,37 @@
     border: 3px solid rgb(0, 0, 0);
     padding:2rem;
     font-size:1rem;
-  }
+    z-index: 2;
+  } 
 
-  #accessibility-header{
+   #accessibility-header{
     padding-top:0;
     max-width: 45%;
     font-size:1.2rem;
-  }
+  } 
 
+  #toolbar-icon-toggled {
+    left:50%;
+}
+
+
+#toolbar-modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  z-index:1;
+}
   
+
+  /* #toolbar-container {
+    left: 0;
+    bottom: 60%;
+    text-align: center;
+    display:grid;
+    margin-bottom: 5%svh;
+    font-size:.5rem;
+    background-color: black;
+  } */
+

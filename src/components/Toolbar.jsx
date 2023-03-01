@@ -3,6 +3,7 @@ import '../stylesheets/toolbar/toolbar.css'
 const Toolbar = ({ theme, setTheme, changeToolBarDisplay, fontSize, setFontSize }) => {
 
   function changeTheme(event){
+    console.log(event.target.id)
     setTheme(event.target.id)
   }
 
@@ -22,6 +23,7 @@ const Toolbar = ({ theme, setTheme, changeToolBarDisplay, fontSize, setFontSize 
     setFontSize(`font-size-${currentFontSize}`)
   }
 
+  console.log(theme)
   return (
     <div id="toolbar-container" className={`${theme}-toolbar-container`}>
       <div id="toolbar-modal-backdrop" onClick={changeToolBarDisplay}></div>
